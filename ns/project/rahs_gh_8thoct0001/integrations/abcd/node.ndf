@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Rahul.Singh68@ibm.com</value>
-    <value name="createdDate">2026-10-29T08:39:23.569975042Z</value>
-    <value name="lastModifiedDate">2026-10-29T08:39:23.569975042Z</value>
+    <value name="lastModifiedBy">Rahul.Singh68@ibm.com</value>
+    <value name="lastModifiedDate">2026-10-29T08:40:27.260439798Z</value>
     <value name="displayName">abcd</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -70,6 +69,7 @@
         <number name="lineNumberForDebug" type="Long">1</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
     <value name="modifiedBy">Rahul.Singh68@ibm.com</value>
