@@ -7,3 +7,16 @@ packages:
   gitUrl: https://github.com/rahul-singh-IBM-68
   gitUsername: rahul-singh-IBM-68
   gitBranch: main
+services:
+- serviceName: project.rahs_gh_8thoct0001.integrations:abcd
+  packages:
+  - name: RAHS_GH_8thOct0001Project
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1316
+- serviceName: project.rahs_gh_8thoct0001.streaming.connections:EmbeddedMessaging
+  packages:
+  - name: RAHS_GH_8thOct0001Project
+    version: "1.0"
